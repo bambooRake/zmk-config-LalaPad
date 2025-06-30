@@ -188,7 +188,7 @@
             sensor-bindings = <&scroll_down_up>, <&volume_up_down>;
 
             bindings = <
-&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &mt R LEFT_ALT       &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P           &mt EQUAL MINUS
+&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &kp R                &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P           &mt EQUAL MINUS
 &kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J             &kp K            &kp L       &mt2 SEMI LBKT  &mt2 SQT RBKT
 &kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M             &kp COMMA        &kp PERIOD  &mt2 UP SLASH   &kp BSLH
 &kp LCTRL  &kp LEFT_WIN         &kp LEFT_ALT     &mo 6           &lt 1 SPACE          &lt 2 LANG2     &lt 3 LANG1    &kp INT_MUHENKAN  &kp INT_HENKAN   &kp LEFT    &kp DOWN        &kp RIGHT
