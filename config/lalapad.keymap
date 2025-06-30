@@ -241,11 +241,11 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &mt LEFT_ALT SQT         &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB5   &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &trans  &trans
-&mo 5   &mt RIGHT_CONTROL MINUS  &mt LGUI ENTER  &msc SCRL_DOWN  &mkp LCLK        &mkp MCLK  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT  &trans  &trans
-&trans  &mt LEFT_SHIFT GRAVE     &kp BACKSPACE   &kp DEL         &mkp RCLK        &mkp MB4   &kp F16   &kp F17      &kp F18        &kp F19    &trans  &trans
-&trans  &trans                   &trans          &trans          &trans           &trans     &trans    &trans       &trans         &trans     &trans  &trans
-                                 &trans          &trans          &trans           &trans     &trans    &trans       &trans         &trans
+&trans &mt LEFT_ALT SQT           &msc MOVE_X(-20)  &msc MOVE_Y(20)  &msc MOVE_X(20)   &mkp MB5   &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &trans  &trans
+&mo 5  &mt RIGHT_CONTROL MINUS    &mt LGUI ENTER    &msc MOVE_Y(-20) &mkp LCLK         &mkp MCLK  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT  &trans  &trans
+&trans &mt LEFT_SHIFT GRAVE       &kp BACKSPACE     &kp DEL          &mkp RCLK         &mkp MB4   &kp F16   &kp F17      &kp F18        &kp F19    &trans  &trans
+&trans &trans                     &trans            &trans           &trans            &trans     &trans    &trans       &trans         &trans     &trans  &trans
+                                                  &trans            &trans           &trans            &trans     &trans    &trans       &trans         &trans
             >;
         };
 
