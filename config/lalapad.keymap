@@ -212,11 +212,11 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans
-                 &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans
+&trans  &mt LEFT_ALT HOME             &kp UP_ARROW         &kp END    &mt LEFT_ALT PAUSE_BREAK       &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mt RIGHT_CONTROL LEFT_ARROW  &mt LGUI DOWN_ARROW  &kp RIGHT  &mt RIGHT_CONTROL PAUSE_BREAK  &mt LEFT_GUI PAUSE_BREAK  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mt LEFT_SHIFT PAUSE_BREAK    &trans               &trans     &mt LEFT_SHIFT PAUSE_BREAK     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                        &trans               &trans     &trans                         &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans               &trans     &trans                         &trans                    &trans  &trans  &trans  &trans
             >;
         };
 
