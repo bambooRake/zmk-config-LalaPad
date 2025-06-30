@@ -188,10 +188,10 @@
             sensor-bindings = <&scroll_down_up>, <&volume_up_down>;
 
             bindings = <
-&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &kp R                &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P           &mt EQUAL MINUS
-&kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J             &kp K            &kp L       &mt2 SEMI LBKT  &mt2 SQT RBKT
-&kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M             &kp COMMA        &kp PERIOD  &mt2 UP SLASH   &kp BSLH
-&kp LCTRL  &kp LEFT_WIN         &kp LEFT_ALT     &mo 6           &lt 1 SPACE          &lt 2 LANG2     &lt 3 LANG1    &kp INT_MUHENKAN  &kp INT_HENKAN   &kp LEFT    &kp DOWN        &kp RIGHT
+&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &kp R                &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P           &none
+&kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J             &kp K            &kp L       &mt2 SEMI LBKT  &none
+&kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M             &kp COMMA        &kp PERIOD  &mt2 UP SLASH   &none
+&kp LCTRL  &kp LEFT_WIN         &lt 2 TAB        &mo 6           &lt 1 SPACE          &none           &none          &kp INT_MUHENKAN  &kp INT_HENKAN   &none       &none           &kp ENTER
                                 &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW       &kp UP_ARROW    &allow_pageup  &allow_home       &allow_pagedown  &allow_end
             >;
         };
@@ -268,6 +268,16 @@
 
         SCROLL_L_LAYER {
             display-name = "scroll_l_layer";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
