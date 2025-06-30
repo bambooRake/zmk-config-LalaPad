@@ -66,6 +66,11 @@
     };
 };
 
+&mt {
+    flavor = "balanced";
+    quick-tap-ms = <200>;
+};
+
 / {
     behaviors {
         // Encoder to Mouse Scroll
