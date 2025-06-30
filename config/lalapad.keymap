@@ -258,11 +258,11 @@
         MOUSE_L_LAYER {
             display-name = "mouse_l_layer";
             bindings = <
-&trans  &mt LEFT_ALT SQT       &msc SCRL_LEFT           &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB5   &trans  &trans  &trans  &trans  &trans  &trans
-&mo 7   &mkp RCLK              &mt RIGHT_CONTROL MINUS  &msc SCRL_DOWN  &mkp LCLK        &mkp MCLK  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mt LEFT_SHIFT ESCAPE  &kp BACKSPACE            &kp DEL         &mkp RCLK        &mkp MB4   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                 &trans                   &trans          &trans           &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans                   &trans          &trans           &trans     &trans  &trans  &trans  &trans
+&trans  &mt LEFT_ALT SQT       &msc SCRL_LEFT           &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB5   &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &trans  &trans
+&mo 7   &mkp RCLK              &mt RIGHT_CONTROL MINUS  &msc SCRL_DOWN  &mkp LCLK        &mkp MCLK  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT  &trans  &trans
+&trans  &mt LEFT_SHIFT ESCAPE  &kp BACKSPACE            &kp DEL         &mkp RCLK        &mkp MB4   &kp F16   &kp F17      &kp F18        &kp F19    &trans  &trans
+&trans  &trans                 &trans                   &trans          &trans           &trans     &trans    &trans       &trans         &trans     &trans  &trans
+                               &trans                   &trans          &trans           &trans     &trans    &trans       &trans         &trans
             >;
         };
 
