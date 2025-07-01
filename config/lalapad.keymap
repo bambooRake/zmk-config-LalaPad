@@ -24,7 +24,8 @@
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_scaler 4 2>;
-//,
+
+    //,
     //<&zip_temp_layer MOUSE_R_LAYER 500>;
 
     lowspeedmode {
@@ -194,10 +195,10 @@
             sensor-bindings = <&scroll_down_up>, <&volume_up_down>;
 
             bindings = <
-&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &mt LEFT_ALT R       &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P            &none
-&kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J             &kp K            &kp L       &mt2 COLON LBKT  &none
-&kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M             &kp COMMA        &kp PERIOD  &mt2 UP SLASH    &none
-&kp LCTRL  &kp LEFT_WIN         &lt 2 TAB        &mo 4           &lt 1 SPACE          &none           &none          &kp INT_MUHENKAN  &kp INT_HENKAN   &none       &none            &kp ENTER
+&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &mt LEFT_ALT R       &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P                 &none
+&kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J             &kp K            &kp L       &mt2 COLON SEMICOLON  &none
+&kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M             &kp COMMA        &kp PERIOD  &mt2 UP SLASH         &none
+&kp LCTRL  &kp LEFT_WIN         &lt 2 TAB        &mo 4           &lt 1 SPACE          &none           &none          &kp INT_MUHENKAN  &kp INT_HENKAN   &none       &none                 &kp ENTER
                                 &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW       &kp UP_ARROW    &allow_pageup  &allow_home       &allow_pagedown  &allow_end
             >;
         };
