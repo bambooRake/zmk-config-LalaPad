@@ -245,7 +245,7 @@
             bindings = <
 &trans  &mt LEFT_ALT SQT         &msc MOVE_X(10)  &msc MOVE_Y(-40)  &msc MOVE_X(-10)  &mkp MB5   &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &trans  &trans
 &mo 5   &mt RIGHT_CONTROL MINUS  &mt LGUI ENTER   &msc MOVE_Y(40)   &mkp LCLK         &mkp MCLK  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT  &trans  &trans
-&trans  &mt LEFT_SHIFT GRAVE     &kp BACKSPACE    &kp DEL           &mkp RCLK         &mkp MB4   &kp F16   &kp F17      &kp F18        &kp F19    &trans  &trans
+&trans  &mt LEFT_SHIFT ESCAPE    &kp BACKSPACE    &kp DEL           &mkp RCLK         &mkp MB4   &kp F16   &kp F17      &kp F18        &kp F19    &trans  &trans
 &trans  &trans                   &trans           &trans            &trans            &trans     &trans    &trans       &trans         &trans     &trans  &trans
                                  &trans           &trans            &trans            &trans     &trans    &trans       &trans         &trans
             >;
