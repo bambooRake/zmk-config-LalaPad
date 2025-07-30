@@ -195,11 +195,11 @@
             sensor-bindings = <&scroll_down_up>, <&volume_up_down>;
 
             bindings = <
-&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &mt LEFT_ALT R       &kp T           &kp Y          &kp U             &kp I            &kp O       &kp P                 &kp LALT
-&kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J             &kp K            &kp L       &mt2 COLON SEMICOLON  &kp RIGHT_CONTROL
-&kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M             &kp COMMA        &kp PERIOD  &mt2 UP SLASH         &kp LEFT_SHIFT
-&lt 2 TAB  &kp LEFT_WIN         &lt 2 TAB        &mo 4           &lt 1 SPACE          &none           &none          &kp INT_MUHENKAN  &kp INT_HENKAN   &kp CAPS    &kp LEFT_GUI          &kp ENTER
-                                &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW       &kp UP_ARROW    &allow_pageup  &allow_home       &allow_pagedown  &allow_end
+&kp ESC    &mt LEFT_ALT Q       &kp W            &kp E           &mt LEFT_ALT R       &kp T           &kp Y          &kp U          &kp I                                &kp O       &kp P                 &kp LALT
+&kp TAB    &mt RIGHT_CONTROL A  &mt LEFT_GUI S   &kp D           &mt RIGHT_CONTROL F  &mt LEFT_GUI G  &kp H          &kp J          &kp K                                &kp L       &mt2 COLON SEMICOLON  &kp RIGHT_CONTROL
+&kp LSHFT  &mt LEFT_SHIFT Z     &kp X            &kp C           &mt LEFT_SHIFT V     &kp B           &kp N          &kp M          &kp COMMA                            &kp PERIOD  &mt2 UP SLASH         &kp LEFT_SHIFT
+&lt 2 TAB  &kp LEFT_WIN         &lt 2 TAB        &mo 4           &lt 1 SPACE          &lt 2 TAB       &kp ESCAPE     &kp BACKSPACE  &mt INTERNATIONAL_5 INTERNATIONAL_4  &kp CAPS    &kp LEFT_GUI          &kp ENTER
+                                &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW       &kp UP_ARROW    &allow_pageup  &allow_home    &allow_pagedown                      &allow_end
             >;
         };
 
