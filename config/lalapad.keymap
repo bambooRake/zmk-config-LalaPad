@@ -116,7 +116,7 @@
         volume_up_down: sensor_volume_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
+            bindings = <&kp C_VOLUME_DOWN>, <&kp C_VOLUME_UP>;
 
             tap-ms = <20>;
             label = "VOLUME_UP_DOWN";
